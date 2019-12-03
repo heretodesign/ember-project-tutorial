@@ -1,0 +1,12 @@
+{{#if showText}}
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, dolorum 
+    necessitatibus quod ipsam ab facere asperiores, perferendis libero corrupti
+     reiciendis aut temporibus 
+    perspiciatis debitis rerum esse exercitationem blanditiis pariatur nobis!
+{{/if}}<br>
+<button {{action 'toggleText'}}>
+    {{if showText 'Hide Text' 'Show Text'}}
+</button>
+{{yield}}
+
+
